@@ -35,7 +35,7 @@
 		>
 			<div class="max-h-screen h-full">
 				<div class="pb-4">
-					<p class="font-bold">Linux x64-86 ASMBLY</p>
+					<p class="font-bold"><a href={`${base}/`}>Linux x64-86 ASMBLY</a></p>
 				</div>
 				<div>
 					<nav class="flex flex-col">

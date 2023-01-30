@@ -50,15 +50,6 @@ body {
 
 h1,
 h2,
-p {
-	font-weight: 400;
-	text-align: justify;
-}
-
-p {
-	line-height: 1.5;
-}
-
 a {
 	color: var(--color-theme-3);
 	text-decoration: none;
@@ -72,18 +63,6 @@ h1 {
 	font-size: 2rem;
 	border-bottom: 2px solid var(--color-theme-3);
 	margin-bottom: 20px;
-}
-
-h2 {
-	font-size: 1.75rem;
-}
-
-h3 {
-	font-size: 1.50rem;
-}
-
-h4 {
-	font-size: 1.25rem;
 }
 
 blockquote {
@@ -142,4 +121,62 @@ button:focus:not(:focus-visible) {
 	position: absolute;
 	width: 1px;
 	white-space: nowrap;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+ul {
+	font-weight: 400;
+}
+
+code {
+	font-family: 'Fira Mono', monospace !important;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 40px;
+	color: #676778;
+}
+
+h2 {
+	font-size: 26px;
+	color: #444;
+}
+
+h3 {
+	font-size: 22px;
+	color: #222;
+}
+
+p,
+ul {
+	font-size: 18px;
+	color: #444;
+
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgb(87, 87, 87);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
 }
